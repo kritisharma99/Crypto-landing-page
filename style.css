@@ -1,0 +1,82 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    position: fixed;
+    background-color: black;
+    height: 100%;
+    width:100%
+
+}
+.navbar{
+    height:90px;
+}
+.logo{
+    display: inline;
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding : 2px 5px;
+}
+.grow-list ul{
+    display:inline;
+    margin-left: 90px;
+}
+
+ul.list li {
+    display: inline;
+    float: left;
+    padding: 0px;
+    margin: 30px;
+    text-align: center;
+    list-style: none;
+    font-size: 19px;
+    color : white;
+}
+.button-small{
+    position:relative;
+    float: right;
+    right: 40px;
+    top:10px;
+    padding: 5px 25px;
+    font-size: 15px;
+    color: white;
+    background-color: #bc27c8;
+    border-radius: 5px;
+}
+.hero-heading{
+    position: absolute;
+    display: inline-block;
+    width: 60%;
+    top:170px;
+    text-align: center;
+    left: 250px;
+    font-size: 80px;
+    color:white;
+    margin:5px;
+
+}
+.hero{
+    position: fixed;
+    height:100%;
+    width: 100%;
+    background-image: url("./assets/bg.png");
+}
+.hero-description{
+    position: absolute;
+    top:350px;
+    left: 435px;
+    color: white;
+    font-size: 25px;
+}
+.button-large{
+    position: relative;
+    top:460px;
+    left: 550px;
+    padding: 8px 30px;
+    font-size: 20px;
+    color: white;
+    background-color: #bc27c8;
+    border-radius: 5px;
+}
